@@ -1,0 +1,318 @@
+body{
+    margin: 0px;
+    background-color: blanchedalmond;
+}
+.student{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    height: 60px;
+}
+.h1{
+    color: white;
+    padding-left: 60px;
+}
+.navbar {
+    background-color: #336CFB;
+    padding: 40px;
+}
+table{
+    border: 1px solid blue;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    background-color: rgb(228, 228, 228);
+}
+
+td{
+    border: 1px solid blue;
+    text-align: center;
+}
+.container{
+    height: 300px;
+    width: 200px;
+    background-color: #a3d1f0;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    z-index: 1;
+    display: none;
+}
+
+.delContainer{
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+
+.inp{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.btn1{
+   position: absolute;
+   top: 230px;
+   left: 50px;
+   height: 40px;
+   width: 90px;
+   border-radius: 10px;
+   background-color: rgb(131, 124, 124);
+   cursor: pointer;
+}
+
+img{
+    height: 40px;
+    position: absolute;
+    top: 550px;
+    left: 770px;
+    cursor: pointer;
+}
+
+
+
+
+.modal{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    position: relative;
+    z-index: 3;
+    overflow-y: scroll;
+
+}
+
+
+.delete{
+    position: absolute;
+    top: 470px;
+    left: 650px;
+    height: 30px;
+    width: 60px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.index{
+    position: absolute;
+    top: 478px;
+    left: 480px;
+}
+
+.search{
+    position: absolute;
+    top: -350px;
+    left: 400px;
+}
+.li{
+    list-style-type: none;
+}
+.clear{
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #a3d1f0;
+}
+
+.inpSearch{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.change{
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #a3d1f0;
+    cursor: pointer;
+}
+.formSearch{
+    position: absolute;
+    top: 180px;
+    left: 550px;
+    width: 300px;
+    height: 55px;
+    background-color: rgb(161,220,235);
+    border-radius: 50px;
+}
+
+.searchInp{
+    border: rgb(161, 220, 235);
+    border-radius: 20px;
+    height: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.submit{
+    border: rgb(161, 220, 235);
+    border-radius: 20px;
+    background-color: yellow;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+
+
+.blockFon{
+    height: 966px;
+    width: 1421px;
+    background-color: olivedrab;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    opacity: 0.9;
+    
+}
+.blockModal{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: -50px;
+    left: 550px;
+    position: relative;
+    z-index: 3;
+}
+.blockBtn{
+    position: absolute;
+    right: 0px;
+    background-color: red;
+    cursor: pointer;
+}
+.getBlocks{
+    margin-left: 60px;
+    position: absolute;
+    top: 50px;
+}
+.getAge{
+    margin-top: 20px;
+}
+.getNum{
+    margin-top: 20px;
+}
+.blockChange{
+    width: 70px;
+    height: 30px;
+    background-color: slateblue;
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    cursor: pointer;
+}
+.blockFon{
+    display: none;
+}
+.blockModal{
+    display: none;
+}
+
+.addStudent{
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+    top: 50px
+}
+
+.pagination{
+    margin-top: 10px;
+    position: absolute;
+    top: 750px;
+    left: 600px;
+}
+
+.prev{
+    cursor: pointer;
+}
+
+.next{
+    cursor: pointer;
+}
+
+.searchCont{
+    width: 750px;
+    height: 90px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+    overflow-y: scroll;
+}
+
+.prev{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(161, 220, 235);
+}
+
+.next{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(161, 220, 235);
+}
+
+.addStudent{
+    border: rgb(161, 220, 235);
+    border-radius: 20px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1000px){
+    table{
+        left: 200px;
+    }
+    .formSearch{
+        left: 250px;
+    }
+    .prev{
+        display: none;
+    }
+    .next{
+        display: none;
+    }
+    .searchCont{
+        width: 300px;
+        left: 200px;
+    }
+}
+
+@media all and (max-width: 700px){
+    table{
+        left: 100px;
+    }
+    .formSearch{
+        left: 130px;
+    }
+    .searchCont{
+        left: 100px;
+    }
+}
+
+@media all and (max-width: 570px){
+    table{
+        left: 0px;
+    }
+    .formSearch{
+        left: 0px;
+    }
+    .searchCont{
+        left: 0px;
+    }
+}
+
+@media all and (max-width: 520px){
+    .h1{
+        display: none;
+    }
+}

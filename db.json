@@ -1,0 +1,76 @@
+{
+  "todos": [
+    {
+      "name": "Emirlan",
+      "surname": "Taalaibekov",
+      "number": "0502281003",
+      "KPI_of_week": "100",
+      "KPI_of_month": "500",
+      "id": 1
+    },
+    {
+      "name": "Zamir",
+      "surname": "Sabyrov",
+      "number": "0777777777",
+      "KPI_of_week": "100",
+      "KPI_of_month": "500",
+      "id": 2
+    },
+    {
+      "name": "Aida",
+      "surname": "Kubanychbekova",
+      "number": "0555555555",
+      "KPI_of_week": "40",
+      "KPI_of_month": "30",
+      "id": 3
+    },
+    {
+      "name": "Aidar",
+      "surname": "Abylov",
+      "number": "0222222222",
+      "KPI_of_week": "50",
+      "KPI_of_month": "333",
+      "id": 4
+    },
+    {
+      "name": "Dair",
+      "surname": "Nurbekov",
+      "number": "0999999999",
+      "KPI_of_week": "30",
+      "KPI_of_month": "300",
+      "id": 5
+    },
+    {
+      "name": "Ilim",
+      "surname": "Bakaev",
+      "number": "0777777777",
+      "KPI_of_week": "44",
+      "KPI_of_month": "300",
+      "id": 6
+    },
+    {
+      "name": "Ruslan",
+      "surname": "Alybaev",
+      "number": "0888888888",
+      "KPI_of_week": "44",
+      "KPI_of_month": "333",
+      "id": 7
+    },
+    {
+      "name": "Dinara",
+      "surname": "Saparbekova",
+      "number": "0444444444",
+      "KPI_of_week": "60",
+      "KPI_of_month": "400",
+      "id": 8
+    },
+    {
+      "name": "Erlan",
+      "surname": "Taalaibekov",
+      "number": "0333333333",
+      "KPI_of_week": "40",
+      "KPI_of_month": "500",
+      "id": 9
+    }
+  ]
+}
